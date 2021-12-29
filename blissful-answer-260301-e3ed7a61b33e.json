@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "blissful-answer-260301",
+  "private_key_id": "e3ed7a61b33ec138792aa2242c5717c3a553788a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDZqYuSK4bC+p0/\nOiOk8sKV/LaHisR5VNUshSNkuvRAzTQS1NsiZCkTl6xNAhUz9EquNCNq26htalfr\nOGnQO5asWsXAROu3sVR6kUndJ7009s69OYm34yvkWqqCSGgCCCLL2f//qbYnUPQd\n8bINLWwTDXt6cjsyyt7FfES2nLYKH9eU5Yhixho19G0mNh+DhW3wAEVxurIddM2s\nTYFl0vDWA8nQGuLOdPy9zJNaIRXWNNNWF3Kb6HLNTsEWtidDlhx6ysDjaCwufZnZ\nIBgEJhyIH/QA6WtAkrpDWw0mYG0NP/+0s9BoocuFN2o5dfcEiPYtXOFRfq8m+trf\nbAHsrwQBAgMBAAECggEAASpuS+8dvqeW9gK6tCR0tFbxJ1Kv8LJqnd1srhpuOnae\n48buEYYVzjwOuS7crDWPvNUcp3LbuRJLvD/GGU5oZS3rRzdXR9mUST/D9IJE+iak\nPtEzEqAN2SA/L4lxvSkL/qmBPH5NMnK1i/+CY52tqYB1+9bmyEPb45ThzVSTiQRW\nHMwzUIrCv6WlEpSMWXB/OAWKW3aB9ZYzEzAXdrzk3/OCIawU3PomOZDYSpv4axu9\nTIuFRov/JNy4U7nPm4JmJLWy7v32JlzhJ7h4Wrhg1J198Rfj47Be2CBCvTLLVSru\n43795kjoYOBBRJVGYoyadZPMkJr70uusVtwKNC0z0QKBgQDxFcUW8oZZbiIb6UOS\n6rUm8gteei3/zKYMG8lHikf8oy4X0v5OXMkiDyzS/MABcaZG9o9cVGw4gDlCmlYU\ncFdx3CHChfY+ViXjMNEUj5ME3xkB0Jc2lGePOhB6kQYKbsYh+d+OzwECgGBC9g2d\nACJc+e4M0I1X/ZRlFksRZ6AOZQKBgQDnINAiILIMVcG/NHjMycqxGR4y0P4qlrV5\nzmOo16KTTv/v2fKd4fs0mWwScxGPmDmlsVmKMiK+altfhzb8thD4lJB0voY/S47E\nE8utQPxyGpHYPBz55w5VtJxbjDZCjjyPYHpCILKI/osyUlP0CYPEGbepLWW49rZ/\nm6H8wsGnbQKBgHyZIr6EY5kuyWQhf7IbqbpSGDwg60ssKplRdwqJVkEk2PqpKpO3\ncqAutZzp0hYs9aHxZhBy9WeSJYXdnCV+FkObYLtXXvfCsFwl67kzpuk6oIMGmlA0\nDP3CJagi8btMmwwOR1NYew4e6SFSZ6C/5AKnjTeERbi3Lw27otqA8wDdAoGAU/Ww\nheU4qJByfEHUbBgVwHWuaalP2yq6K9BUlZ4XmcmF4ZxbrQzNU1M0VhNk2rPipRUi\nwLfrtR4vqSkWSYDd818Mhsw7Ojz5VLMYNwy3Z7/NIS7dG87afznH3t21TEIdL7xN\nTT5RfMBy0knj42+dZRwugo9SN3mv2/UuSAJ7lJUCgYAQ3drbMiU3VZuccsvPUaWL\n33TLz2tQ3yp1byMDCJiVoGQqlJZGLMiwN9grKt22zrcnMlyKeNk2jl8KlSz+yNw9\nsmETTYs35kR2uVHzMskUMGtPLUC7HMnCzdkrCSFOg+9PKSMjGUmltXhnRmZG3mcP\nNpRrdQM/i9vVrBocwUyEMw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "loctek-2020@blissful-answer-260301.iam.gserviceaccount.com",
+  "client_id": "113051791244505756371",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/loctek-2020%40blissful-answer-260301.iam.gserviceaccount.com"
+}
