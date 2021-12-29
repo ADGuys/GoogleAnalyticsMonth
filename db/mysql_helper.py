@@ -24,7 +24,7 @@ class DBPipeline:
         try:
             # 查重处理
             self.cursor.execute(
-                """select * from google_analytics_flow where date = %s and source_name = %s""",
+                """select * from google_analytics_flow_month where date = %s and source_name = %s""",
                 (item['date'],
                  item['source_name']
                  ))
@@ -33,7 +33,7 @@ class DBPipeline:
             # 重复
             if repetition:
                 sql = '''
-                UPDATE google_analytics_flow 
+                UPDATE google_analytics_flow_month 
                 SET UV = %s, PV = %s, organic_search = %s, paid_search = %s, direct = %s, referral = %s, email = %s, social = %s, other = %s, transactionsPerSession = %s,avgTimeOnPage = %s,transactions=%s,sessions=%s,revenue=%s,bounces=%s,site_code=%s
                 WHERE date = %s and source_name = %s
                   '''
@@ -53,7 +53,7 @@ class DBPipeline:
             else:
                 # 插入数据
                 self.cursor.execute(
-                    """insert into google_analytics_flow(UV, PV, organic_search, paid_search, direct, referral, email, social, other, date, source_name,transactionsPerSession,avgTimeOnPage,transactions,sessions,revenue,bounces,site_code)
+                    """insert into google_analytics_flow_month(UV, PV, organic_search, paid_search, direct, referral, email, social, other, date, source_name,transactionsPerSession,avgTimeOnPage,transactions,sessions,revenue,bounces,site_code)
                     value (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,%s,%s,%s,%s,%s)""",
                     (item['UV'],
                      item['PV'],

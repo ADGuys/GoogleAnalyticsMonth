@@ -3,7 +3,7 @@ import datetime
 import tool
 
 today = (datetime.datetime.today() + datetime.timedelta(days=1)).strftime('%Y-%m-%d')
-start_time = (datetime.datetime.now() - datetime.timedelta(days=1000))
+start_time = datetime.datetime(2020, 1, 1)
 
 profile_id = '170556909'
 source_name = 'FlexiSpotJP'

@@ -3,7 +3,7 @@ import datetime
 import tool
 
 today = (datetime.datetime.today() + datetime.timedelta(days=1)).strftime('%Y-%m-%d')
-start_time = (datetime.datetime.now() - datetime.timedelta(days=125)) # 111
+start_time = datetime.datetime(2021, 1, 13)
 
 profile_id = '235678046'  # 已经转化USD
 source_name = 'FlexiSpotDE'

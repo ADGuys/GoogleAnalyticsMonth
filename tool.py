@@ -14,14 +14,14 @@ def get_end_time(start_time):
     months = start_time.month
     end_day = calendar.monthrange(years, months)
     end_time = datetime.datetime(years, months, end_day[1])
-    return end_time
+    return end_time.strftime("%Y-%m-%d")
 
 
 def get_data(start_time, today, profile_id, source_name, site_code):
     key_file_location = 'blissful-answer-260301-e3ed7a61b33e.json'
     scope = ['https://www.googleapis.com/auth/analytics']
     service = gaapi.get_service('analytics', 'v3', scope, key_file_location)
-    while start_time.strftime("%Y-%m-%d") > today:
+    while start_time.strftime("%Y-%m-%d") < today:
         end_date = get_end_time(start_time)
         start_date = start_time.strftime("%Y-%m-%d")
 
@@ -64,6 +64,7 @@ def get_data(start_time, today, profile_id, source_name, site_code):
         ).execute()
 
         temp_dic = {}
+        print(start_date[:-2] + '01')
         if data.get('rows', 0):
             arg.update({
                 'UV': data['rows'][0][0],
@@ -74,7 +75,7 @@ def get_data(start_time, today, profile_id, source_name, site_code):
                 'sessions': data['rows'][0][5],
                 'transactionRevenue': data['rows'][0][6],
                 'bounces': data['rows'][0][7],
-                'date': start_date,
+                'date': start_date[:-2] + '01',
                 'source_name': source_name,
                 'site_code': site_code,
             })

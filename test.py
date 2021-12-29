@@ -3,6 +3,7 @@ import datetime
 import tool
 from apscheduler.schedulers.blocking import BlockingScheduler
 
+
 # def my_clock():
 #     print('hello world')
 #
@@ -36,11 +37,10 @@ def ga_task():
         'FlexiSpotFR': '236514082',
     }
     today = (datetime.datetime.today() + datetime.timedelta(days=1)).strftime('%Y-%m-%d')
-    start_time = (datetime.datetime.now() - datetime.timedelta(days=5))
+    start_time = datetime.datetime(2021, 2, 1)
     for k, v in tmp_dic.items():
         site_code = site_code_dict[k]
         tool.get_data(start_time, today, v, k, site_code)
-
 
 
 # 07

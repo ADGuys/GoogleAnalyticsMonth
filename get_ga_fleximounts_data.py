@@ -1,5 +1,4 @@
 import datetime
-import time
 import tool
 
 today = (datetime.datetime.today() + datetime.timedelta(days=1)).strftime('%Y-%m-%d')
